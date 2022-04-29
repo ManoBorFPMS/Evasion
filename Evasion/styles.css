@@ -5,31 +5,39 @@
 }
 
 body{
-    margin:0 auto; 
+    margin:0;
+    padding: 0; 
     background-color: #cdcdcd; 
+    
 }
 
 /* tete de l'accueil */
-header.header{
-    height: 47px;
-    width: 428px;
-    left: 0px;
+header.tete{
+    height: 100px;
+    width: 100%;
+    background-color: #696FDF;
+    position: relative;
     top: 0px;
-    border-radius: 0px;
+    border-radius: 0px 0px 70px 70px;
+    display: flex;
+    justify-content: center;
+    
+  
 
 }
 .title{
     color: white;
-    font-size: 30px;font-family: Montserrat;
-    font-size: 24px;
+    font-family: Montserrat;
+    font-size: 30px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
     font-weight: 450;
-}
+    margin-top: 60px;
+   }
 
-section.top-page{
+/* section.top-page{
     position: absolute;
     align-items: center;
     height: 100px;
@@ -39,11 +47,11 @@ section.top-page{
     border-radius: 0px;
     border-radius: 0px 0px 70px 70px;
     background-color: #696FDF ;
-}
+} */
 /* map */
 section.map img{
     position: absolute;
-    width: 428px;
+    width: 100%;
     height: 540px;
     left: 0px;
     top: 105px;
@@ -56,9 +64,11 @@ section.map img{
     display: flex;
     position: relative;
     height: 100px;
-    width: 375px;
-    left: 27px;
-    top: 650px;
+    
+    left: -0px;
+    top: 523px;
+    margin: 27px;
+    
 }
 
 .button1-case{
@@ -74,7 +84,7 @@ section.map img{
 
 .button2-case{
     position: absolute;
-    left: 50.83%;
+    left: 50.2%;
     right: -0.83%;
     top: 0%;
     bottom: 50%;
@@ -95,7 +105,7 @@ section.map img{
 }
 .button4-case{
     position: absolute;
-    left: 50.83%;
+    left: 50.2%;
     right: -0.83%;
     top: 52.5%;
     bottom: -2.5%;
@@ -129,26 +139,112 @@ section.map img{
 
 .run{
     position: absolute;
-    width: 375px;
+    width: 96.5%;
     height: 50px;
-    left: 27px;
+    left: 2%;
     top: 760px;
     background: #696FDF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    text-decoration: none;
 }
 .police1{
 
-    position: absolute;
-    width: 66px;
-    top: -20px;
-    left: 157.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: -20px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    
-
+    text-decoration: none;
     color: #FFFFFF;
+    
+}
+
+
+/* navbar  */
+
+.navbar {
+    position: absolute;
+    left: 3px;
+    right: 0%;
+    top: 855px;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 98.8%;
+    height: 70px;
+    background-color: white;
+    
+    
+    border: 2px solid #696FDF;
+    border-radius: 50px 50px 0px 0px;
+    
+}
+.navbar-item{
+    width: 24.825%;
+    margin-left: 0px;
+    margin-top: 15px;
+    text-decoration: none;
+   font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+
+.navbar-details {
+    font-weight: 600;
+    
+    
+    margin-top: 2%;
+    text-decoration: none;
+    margin-left: 0%;
+    display: flex;
+  justify-content: center;
+
+
+}
+/* S.O.S */
+
+
+.text-sos{
+   
+   
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+      
+  
+   
+    
+    
+}
+.sos{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none; 
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 44.5%;
+    border-radius: 80px;
+    top: 561px;
+   
+    background-color:#FF4B56 ;
 }
